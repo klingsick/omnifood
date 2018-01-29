@@ -1,0 +1,31 @@
+.cities-box {
+    padding: 1%;
+}
+
+.city-img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.city-points {
+    list-style: none;
+}
+
+.city-points li {
+    margin-bottom: 5px;
+}
+
+.city-points li a:link,
+.city-points li a:visited {
+    color: #e67e22;
+    text-decoration: none;
+    padding: 1px;
+    border-bottom: .5px solid #e67e22;
+    transition: border 0.2s, color 0.5s;
+}
+
+.city-points li a:hover,
+.city-points li a:active {
+    color: #555;
+    border-bottom: .5px solid transparent;
+}
