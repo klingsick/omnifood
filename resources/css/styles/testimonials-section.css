@@ -1,0 +1,47 @@
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.section-testimonials h2 {
+    color: #f2ac6e;
+}
+
+.testimonial-box {
+    padding: 1%;
+}
+
+.testimonial-box blockquote {
+    color: #fff;
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+.testimonial-box blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -6px;
+    left: -20px;
+}
+
+.testimonial-box cite {
+    display: block;
+    color: #f2ac6e;
+    font-size: 90%
+}
+
+.testimonial-img {
+    border-radius: 50%;   
+    height: 60px;
+    margin-top: 15px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
