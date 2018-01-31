@@ -2,10 +2,12 @@
     background-color: #f4f4f4;
 }
 
+/* box for each plan */
 .plans-box {
     padding: 1%;
 }
 
+/* container in each plans-box */
 .plan-container {
     background-color: #fff;
     border-radius: 5px;
@@ -27,17 +29,20 @@
     border-bottom: 1px solid #e8e8e8;
 }
 
+/* contains heading, price */
 .plan-container div:first-child {
     background-color: #fcfcfc;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 
+/* contains signup button */
 .plan-container div:last-child {
     text-align: center;
     border: 0;
 }
 
+/* format price paragraph */
 .plan-price {
     color: #e67e22;
     font-size: 2.5rem;
@@ -45,10 +50,12 @@
     margin-bottom: 10px;
 }
 
+/* price per meal paragraph */
 .price-per-meal {
    font-size: .8rem; 
 }
 
+/* make "/ month" small */
 .plan-price span {
     font-size: .8rem;
     font-weight: 300;
