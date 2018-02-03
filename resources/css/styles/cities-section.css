@@ -22,6 +22,7 @@
     text-decoration: none;
     padding: 1px;
     border-bottom: .5px solid #e67e22;
+    -webkit-transition: border 0.2s, color 0.5s;
     transition: border 0.2s, color 0.5s;
 }
 

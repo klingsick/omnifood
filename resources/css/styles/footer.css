@@ -32,6 +32,7 @@ footer {
 .social-links li a:visited {
     color: #999;
     text-decoration: none;
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 
@@ -43,6 +44,7 @@ footer {
 .social-links li a:link,
 .social-links li a:visited {
     font-size: 1.25rem;
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 
@@ -50,6 +52,7 @@ footer {
 .ion-social-twitter,
 .ion-social-googleplus,
 .ion-social-instagram {
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 
