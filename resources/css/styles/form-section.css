@@ -20,3 +20,24 @@
 .contact-form input[type=checkbox] {
     margin: 10px 5px 10px 0;
 }
+
+.form-messages {
+	width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 9px;
+    margin-bottom: 20px;
+}
+
+.success {
+    color: #333;
+    font-weight: 400;
+    background-color: rgba(0, 178, 51, .5);
+}
+
+.error {
+    color: #fff;
+    font-weight: 400;
+    background-color: rgba(255, 0, 0, .5);
+}
